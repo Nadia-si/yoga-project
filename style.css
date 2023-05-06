@@ -99,12 +99,6 @@ p {
   text-decoration: none;
   text-transform: capitalize;
 }
-.home-paragraph p {
-  padding: 0;
-}
-.home-paragraph h2 {
-  margin-bottom: 20px;
-}
 @media (max-width: 576px) {
   body {
     margin: 100px 10px;
@@ -116,18 +110,22 @@ p {
   h2 {
     text-align: center;
     font-size: 28px;
+    margin: 0 20px;
   }
+
   .email-link,
   h3 {
     font-size: 20px;
   }
-
   .row {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 0;
-    margin: 0;
+    margin: 20px 0;
+  }
+  .app-link {
+    padding: 15px 40px;
   }
 }
